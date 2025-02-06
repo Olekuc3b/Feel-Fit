@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');</style>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+<title>Kurse | Feel Fit</title>
+</head>
+<body>
+	<nav> 
+		<div class="dropdown">
+			<p></p>
+			<ul class="dropmenu">
+				<li><a href="spirit.html">Spirit</a></li>
+				<li><a href="team.html">Team</a></li>
+				<li><a href="membership.html">Membership</a></li>
+				<li><a href="kurse.html">Kurse</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			<img onClick="hidedropdown()" class="close_button" src="img/close_button.svg" alt="Navigation close button" width="20px" height="20px">
+		</div>
+		<ul class="menu">
+			<li><a href="index.html">Feel Fit</a></li>
+			<li onClick="showdropdown()"><img class="button" src="img/Button.svg" alt="Navigation open button" width="60px" height="40px"></li>
+		</ul>
+	</nav>
+	<script>
+		function showdropdown(){
+			const dropdown = document.querySelector('.dropdown')
+			dropdown.style.display = 'flex'
+		}
+			function hidedropdown(){
+			const dropdown = document.querySelector('.dropdown')
+			dropdown.style.display = 'none'
+		}
+		</script>
+	<div class="probier_dich">
+		<h1>Probieren Sie sich aus!</h1>
+		<p>Egal für welchen Geschmack, wir bieten eine Vielfallt an Kursen an, wo sicherlich für jeden etwas dabei ist.</p>
+	</div>
+	<div class="kurse">
+		<div class="kurs1">
+			<div class="kurspicture"><img src="img/Zumba-Kurs.jpg" alt="Weißer Lautsprecher"></div>
+			<div class="kursname">
+				<h1>Zumba</h1>
+			</div>
+		</div>
+		<div class="kurs2">
+			<div class="kurspicture"><img src="img/Pump-Langhantel.jpg" alt="Weiße Langhandel"></div>
+			<div class="kursname">
+				<h1>Pump</h1>
+			</div>
+		</div>
+		<div class="kurs3">
+			<div class="kurspicture"><a href="yoga.html"><img src="img/Yoga-Frau.jpg" alt="Weiße Yoga-Matte"></a></div>
+			<div class="kursname">
+				<h1><a href="yoga.html">Yoga</a></h1>
+			</div>
+		</div>
+		<div class="kurs4">
+			<div class="kurspicture"><img src="img/Cycle.jpg" alt="Weißes Cycle"></div>
+			<div class="kursname">
+				<h1>Cycle</h1>
+			</div>
+		</div>
+		<div class="kurs5">
+			<div class="kurspicture"><img src="img/Strong-Nation.jpg" alt="Weiße Stopuhr"></div>
+			<div class="kursname">
+				<h1>Strong Nation</h1>
+			</div>
+		</div>
+		<div class="kurs6">
+			<div class="kurspicture"><img src="img/Sixpack-Bauchroller.jpg" alt="Weiße Handel"></div>
+			<div class="kursname">
+				<h1>Sixpack</h1>
+			</div>
+		</div>
+		<div class="kurs7">
+			<div class="kurspicture"><img src="img/HIIT-Kurs.jpg" alt="Weiße Turnschuhe"></div>
+			<div class="kursname">
+				<h1>HIIT</h1>
+			</div>
+		</div>
+		<div class="kurs8">
+			<div class="kurspicture"><img src="img/Total-Body.jpg" alt="Weiße Trinkflasche"></div>
+			<div class="kursname">
+				<h1>Total Body</h1>
+			</div>
+		</div>
+		<div class="kurs9">
+			<div class="kurspicture"><img src="img/Pilates-Matte.jpg" alt="Weiße Pilates Matte"></div>
+			<div class="kursname">
+				<h1>Pilates</h1>
+			</div>
+		</div>
+	</div>
+	<div class="contact_us">
+		<h1>Contact Us</h1>
+		<p>Haben Sie Fragen oder möchten Sie sich für ein Kurs anmelden, dann klicken Sie <a href="kontakt.html">hier!</a></p>
+	</div>
+	<footer>
+		<ul>
+			<li><a href="impressum.html">Impressum</a></li>
+			<li>Datenschutz</li>
+			<li>AGB</li>
+		</ul>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');</style>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+<title>Spirit | Feel Fit</title>
+</head>
+<body>
+	<nav> 
+		<div class="dropdown">
+			<p></p>
+			<ul class="dropmenu">
+				<li><a href="spirit.html">Spirit</a></li>
+				<li><a href="team.html">Team</a></li>
+				<li><a href="membership.html">Membership</a></li>
+				<li><a href="kurse.html">Kurse</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			<img onClick="hidedropdown()" class="close_button" src="img/close_button.svg" alt="Navigation close button" width="20px" height="20px">
+		</div>
+		<ul class="menu">
+			<li><a href="index.html">Feel Fit</a></li>
+			<li onClick="showdropdown()"><img class="button" src="img/Button.svg" alt="Navigation open button" width="60px" height="40px"></li>
+		</ul>
+	</nav>
+	<script>
+		function showdropdown(){
+			const dropdown = document.querySelector('.dropdown')
+			dropdown.style.display = 'flex'
+		}
+			function hidedropdown(){
+			const dropdown = document.querySelector('.dropdown')
+			dropdown.style.display = 'none'
+		}
+		</script>
+	<div class="our_vibe">
+		<h1>Our Vibe!</h1>
+		<p>Wilkommen im Feel Fit! Klassisches Fitnessstudio war gestern. Lernen Sie, was es heißt, im Feel Fit zu trainieren und werden Sie Teil vom Vibe!</p>
+	</div>
+	<div class="spirit">
+		<div class="our_spirit">
+			<h1>Our Spirit</h1>
+			<p>Unser Studio ist mit der Gründung in 2025 noch ein recht
+			junges Studio, welches sich durch modernes Auftreten beweisen möchte. Wir legen Wert auf Sauberkeit, sowie ordentliche Hygiene. Die minimale Architektur und die Raumgestaltung soll den Fokus ganz auf das Trainieren fokussieren. Dennoch wird durch den Einsatz von Pflanzen eine tropisch angenehme Atmosphäre geschaffen. </p>
+			<p>Wir vom Studio Feel Fit glauben nicht nur an unsere Muskeln, sondern auch an unseren Geist. Deshalb gibt es neben körperlichen Aktivitäten auch Aktivitäten für die mentale Gesundheit. Der Mensch ist ein System aus mehreren Faktoren, die gleichzeitig funktionieren müssen. Deshalb bieten wir neben allen sportlichen Aktivitäten, auch genug Möglichkeiten für Ruhe und Gesinnung an. </p>
+			<p>Mehr zu den Räumen und den Möglichkeiten finden Sie <span class="green">hier!</span></p>
+		</div>
+	</div>
+	<div class="studio">
+		<div class="picture_slider">
+			<img src="img/tropischer-jungle.jpg" alt="Grüne Pflanzen in einem Haus mit Dachfenstern, wo das Tageslicht hineinscheint und alles wirkt verschwommen">
+			<img src="img/men-preparing.jpg" alt="men preparing for workout">
+			<img src="img/woman-working-out.jpg" alt="woman doing workout">
+			<img src="img/men-on-cycle.jpg" alt="men cycling">
+			<img src="img/handles.jpg" alt="handles">
+			<img src="img/swimming-pool.jpg" alt="swimming pool">
+		</div>
+	</div>
+	<div class="contact_us">
+		<h1>Contact Us</h1>
+		<p>Haben Sie Fragen oder möchten Sie sich für ein Kurs anmelden, dann klicken Sie <a href="kontakt.html">hier!</a></p>
+	</div>
+	<footer>
+		<ul>
+			<li><a href="impressum.html">Impressum</a></li>
+			<li>Datenschutz</li>
+			<li>AGB</li>
+		</ul>
+	</footer>
+</body>
+</html>

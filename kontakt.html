@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');</style>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+<title>Kontakt | Feel Fit</title>
+</head>
+<body>
+	<nav> 
+		<div class="dropdown">
+			<p></p>
+			<ul class="dropmenu">
+				<li><a href="spirit.html">Spirit</a></li>
+				<li><a href="team.html">Team</a></li>
+				<li><a href="membership.html">Membership</a></li>
+				<li><a href="kurse.html">Kurse</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			<img onClick="hidedropdown()" class="close_button" src="img/close_button.svg" alt="Navigation close button" width="20px" height="20px">
+		</div>
+		<ul class="menu">
+			<li><a href="index.html">Feel Fit</a></li>
+			<li onClick="showdropdown()"><img class="button" src="img/Button.svg" alt="Navigation open button" width="60px" height="40px"></li>
+		</ul>
+	</nav>
+	<script>
+		function showdropdown(){
+			const dropdown = document.querySelector('.dropdown')
+			dropdown.style.display = 'flex'
+		}
+			function hidedropdown(){
+			const dropdown = document.querySelector('.dropdown')
+			dropdown.style.display = 'none'
+		}
+	</script>
+	<div class="kontakt">
+		<h1>Kontakt</h1>
+	</div>
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.6173378374674!2d8.382290377183253!3d49.453949058610334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797cb43dee12291%3A0xd5ae839fe994b09f!2sIm%20Langen%20Winkel%2C%2067065%20Ludwigshafen%20am%20Rhein-Maudach!5e0!3m2!1sen!2sde!4v1738769683932!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	<div class="kontakt_infos">
+		<h2>Feel Fit GmbH</h2>
+		<p>Im Langen Winkel</p>
+		<p>67065, Ludwigshafen am Rhein</p>
+		<p>+49 (0) 555 55555555</p>
+		<p><a href="mailto:Kuchartzyk.ole@gmail.com">Kuchartzyk.ole@gmail.com</a></p>
+	</div>
+	<div class="oeffnungszeiten">
+		<div class="oefz_intro">
+			<h2>Öffnungszeiten</h2>
+		</div>
+		<div class="tage">
+			<p>Mo-Fr</p>
+			<p>Sa, So</p>
+			<p>Feiertags</p>
+		</div>
+		<div class="zeiten">
+		<p>05:00 - 00:00</p>
+			<p>08:00 - 22:00</p>
+			<p>08:00 - 22:00</p>
+		</div>
+	</div>
+	<div class="kontakformular">
+		<form>
+			<h1>Kontaktformular</h1>
+			<input type="text" id="firstname" placeholder="First Name" required> 
+			<input type="text" id="lastname" placeholder="Last Name" required> 
+			<input type="email" id="email" placeholder="Email" required> 
+			<input type="mobile" id="mobile" placeholder="Mobile" required> 
+			<h4>Type Your Message Here...</h4>
+			<textarea required></textarea>
+			<input type="submit" value="Send" id="button">
+		</form>
+	</div>
+	<footer>
+		<ul>
+			<li><a href="impressum.html">Impressum</a></li>
+			<li>Datenschutz</li>
+			<li>AGB</li>
+		</ul>
+	</footer>
+</body>
+</html>

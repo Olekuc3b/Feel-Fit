@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');</style>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+<title>Membership | Feel Fit</title>
+</head>
+<body>
+	<nav> 
+		<div class="dropdown">
+			<p></p>
+			<ul class="dropmenu">
+				<li><a href="spirit.html">Spirit</a></li>
+				<li><a href="team.html">Team</a></li>
+				<li><a href="membership.html">Membership</a></li>
+				<li><a href="kurse.html">Kurse</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			<img onClick="hidedropdown()" class="close_button" src="img/close_button.svg" alt="Navigation close button" width="20px" height="20px">
+		</div>
+		<ul class="menu">
+			<li><a href="index.html">Feel Fit</a></li>
+			<li onClick="showdropdown()"><img class="button" src="img/Button.svg" alt="Navigation open button" width="60px" height="40px"></li>
+		</ul>
+	</nav>
+	<script>
+		function showdropdown(){
+			const dropdown = document.querySelector('.dropdown')
+			dropdown.style.display = 'flex'
+		}
+			function hidedropdown(){
+			const dropdown = document.querySelector('.dropdown')
+			dropdown.style.display = 'none'
+		}
+		</script>
+	<div class="your_chance">
+		<h1>Take Your Chance</h1>
+		<p>Der beste Tag um ein Baum zu pflanzen war gestern und der zweitbeste ist heute. Also worauf warten Sie noch und tun Sie was für Ihre Gesundheit. Werden Sie noch heute fit!</p>
+	</div>
+	<div class="vertraege">
+		<h1>Tritt unserer Familie bei!</h1>
+		<h2>Vertragslaufzeit 12 Monate</h2>
+		<p>In den ersten 6 Monaten nach Abschluss des Mitgliedschaftsvertrages trainiert man für 19,99€ pro Monat.</p>
+		<p>Der monatliche Beitrag liegt ab dem 7. Monat bei 24,99€ pro Monat.</p>
+		<h2>Vertragslaufzeit 24 Monate</h2>
+		<p>In den ersten 12 Monaten nach Abschluss des Mitgliedschaftsvertrages trainiert man für 19,99€ pro Monat.</p>
+		<p>Der monatliche Beitrag liegt ab dem 13. Monat bei 24,99€ pro Monat.</p>
+		<h2>Kurse</h2>
+		<p>Mit einem Membership bekommen sie auf alle Kurse 50% Rabatt. Ohne Membership berechnen wir ihnen den vollen Preis.</p>
+		<p>Preise variieren sich pro Kurs. Die Info über den Preis bekommen sie bei der Anmeldung zu einem Kurs.</p>
+		<h2>Startpaket</h2>
+		<p>Für das verbindliche Startpaket, Membercard und eine Gruppeneinweisung, wird eine einmalige Zahlung von 29,99 € fällig; optional kann ein Personaltraining statt der Gruppeneinweisung gebucht werden, die einmalige Zahlung erhöht sich dann von 29,99€ auf einmalig 39,99€.</p>
+		<p>Die beschriebenen Mitgliedschaftsverträge können im Feel Fit Studio in der Zeit von 8 Uhr bis 22 Uhr vor Ort abgeschlossen werden. Die Mindestvertragslaufzeit beträgt 12 Monate. Weitere Vertragsinformationen wie Kündigungs- und Vertragsbedingungen findest du in den Allgemeinen Geschäftsbedingungen. Alle Preise verstehen sich inkl. der gesetzlichen Umsatzsteuer.</p>
+	</div>
+	<div class="contact_us">
+		<h1>Contact Us</h1>
+		<p>Haben Sie Fragen oder möchten Sie sich für ein Kurs anmelden, dann klicken Sie <a href="kontakt.html">hier!</a></p>
+	</div>
+	<footer>
+		<ul>
+			<li><a href="impressum.html">Impressum</a></li>
+			<li>Datenschutz</li>
+			<li>AGB</li>
+		</ul>
+	</footer>
+</body>
+</html>

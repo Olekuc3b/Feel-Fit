@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');</style>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+<title>Team | Feel Fit</title>
+</head>
+<body>
+	<nav> 
+		<div class="dropdown">
+			<p></p>
+			<ul class="dropmenu">
+				<li><a href="spirit.html">Spirit</a></li>
+				<li><a href="team.html">Team</a></li>
+				<li><a href="membership.html">Membership</a></li>
+				<li><a href="kurse.html">Kurse</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			<img onClick="hidedropdown()" class="close_button" src="img/close_button.svg" alt="Navigation close button" width="20px" height="20px">
+		</div>
+		<ul class="menu">
+			<li><a href="index.html">Feel Fit</a></li>
+			<li onClick="showdropdown()"><img class="button" src="img/Button.svg" alt="Navigation open button" width="60px" height="40px"></li>
+		</ul>
+	</nav>
+	<script>
+		function showdropdown(){
+			const dropdown = document.querySelector('.dropdown')
+			dropdown.style.display = 'flex'
+		}
+			function hidedropdown(){
+			const dropdown = document.querySelector('.dropdown')
+			dropdown.style.display = 'none'
+		}
+		</script>
+	<div class="our_people">
+		<h1>Our People</h1>
+	</div>
+	<div class="team_profiles">
+		<div class="profile1">
+			<div class="profilepicture"><img src="img/king-arno.png" alt="Arno Richter lächelnd mit einer Krone von Burger King auf dem kopf"></div>
+			<div class="profilename">
+				<h1>King Arno</h1>
+				<p>Eigentümer</p>
+			</div>
+		</div>
+		<div class="profile2">
+			<div class="profilepicture"><img src="img/ole-kuchartzyk.jpg" alt="Profilbild von Ole Kuchartzyk"></div>
+			<div class="profilename">
+				<h1>Ole Kuchartzyk</h1>
+				<p>Eigentümer</p>
+			</div>
+		</div>
+		<div class="profile3">
+			<div class="profilepicture"><img src="img/ole-kuchartzyk-4.jpg" alt="Profilbild von Ole Kuchartzyk"></div>
+			<div class="profilename">
+				<h1>Ole Kuchartzyk</h1>
+				<p>Coach</p>
+			</div>
+		</div>
+		<div class="profile4">
+			<div class="profilepicture"><img src="img/ole-kuchartzyk-5.jpg" alt="Profilbild von Ole Kuchartzyk"></div>
+			<div class="profilename">
+				<h1>Ole Kuchartzyk</h1>
+				<p>Coach</p>
+			</div>
+		</div>
+		<div class="profile5">
+			<div class="profilepicture"><img src="img/ole-kuchartzyk-3.jpg" alt="Profilbild von Ole Kuchartzyk"></div>
+			<div class="profilename">
+				<h1>Ole Kuchartzyk</h1>
+				<p>Coach</p>
+			</div>
+		</div>
+		<div class="profile6">
+			<div class="profilepicture"><img src="img/ole-kuchartzyk-2.jpg" alt="Profilbild von Ole Kuchartzyk"></div>
+			<div class="profilename">
+				<h1>Ole Kuchartzyk</h1>
+				<p>Coach</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<ul>
+			<li><a href="impressum.html">Impressum</a></li>
+			<li>Datenschutz</li>
+			<li>AGB</li>
+		</ul>
+	</footer>
+</body>
+</html>
